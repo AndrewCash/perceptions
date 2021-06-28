@@ -23,32 +23,42 @@ export default function Home() {
       <Header />
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Perception Zero
-        </h1>
 
-        <p className={styles.description}>
-          Luxury Streetwear
-        </p>
+        <div 
+          className={styles.beginningText}
+        >
 
-        <p className={styles.description}>
-          Happiness Comes From Within
-        </p>
+          <h1 className={styles.title}>
+            Perception Zero
+          </h1>
 
+          
+        </div>
 
+      
 
+        {/* <Image 
+          src="/../public/images/Rockstar Denim.webp"
+          width="100"
+          height="100"
+          alt="homepage image"
+        /> */}
         
+{/*
+        <div className={styles.grid} style={{display: none,}}>
 
-        <div className={styles.grid}>
-
-          {/* <a href="/" > */}
+          
             
           
-          <Link href="/" className={styles.card} >
-            <h2>Jeans &rarr;</h2>
+          <Link href="/" className={styles.card} passHref >
+            <a>
+              <h2>Jeans &rarr;</h2>
+            </a>
+            
           </Link>
+          
 
-          <Link href="/" className={styles.card} >
+          <Link href="/" className={styles.card} passHref >
             <h2>Jackets &rarr;</h2>
           </Link>
 
@@ -56,10 +66,9 @@ export default function Home() {
             <h2>Documentation &rarr;</h2>
             <p>Find in-depth information about Next.js features and API.</p>
           </a>
-
-          
             
-        </div>
+        </div> */}
+{/* asdf */}
       </main>
 
       <Footer />

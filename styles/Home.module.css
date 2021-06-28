@@ -106,3 +106,21 @@
     flex-direction: column;
   }
 }
+
+
+
+.beginningText {
+  background-image: url(./../public/images/Rockstar\ Denim.webp);
+  color: #280E0E;
+
+  border: solid #280E0E;
+
+  width: 90%;
+  height: 80%;
+}
+
+.beginningText h1 {
+
+  margin-top: 10vh;
+
+}
