@@ -28,7 +28,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Luxury treetwear
+          Luxury Streetwear
         </p>
 
         <p className={styles.description}>
