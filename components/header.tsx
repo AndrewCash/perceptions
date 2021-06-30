@@ -2,12 +2,11 @@ import Link from 'next/link'
 import Image from 'next/image'
 import styles from '../components/header.module.css'
 
-import '../styles/styles.scss'
 
 export default function Header() {
   return (
     <header className={styles.container}>
-      <Link href="/" passHref className='logo'>
+      <Link className="logo" href="/" passHref >
         <Image 
           alt="Home Image" 
           src="/../public/logo.svg" 
@@ -20,7 +19,9 @@ export default function Header() {
         <h1 className="header__title" >Perception Zero</h1>
       </Link>
       <a className="header__summary snipcart-checkout snipcart-summary" href="#" style={{textDecoration: "none"}}>
-        <span className="header__price snipcart-total-price">Hello</span>
+        <span className="header__price snipcart-total-price">
+          Hello
+        </span>
       </a>
     </header>
   )
