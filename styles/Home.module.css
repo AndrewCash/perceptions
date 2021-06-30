@@ -107,8 +107,6 @@
   }
 }
 
-
-
 .beginningText {
   background-image: url(./../public/images/Rockstar\ Denim.webp);
   color: #280E0E;
@@ -116,7 +114,7 @@
   border: solid #280E0E;
 
   width: 90%;
-  height: 80%;
+  height: 40vh;
 }
 
 .beginningText h1 {

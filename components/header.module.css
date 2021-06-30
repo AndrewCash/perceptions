@@ -1,7 +1,11 @@
 
 
-.header {
+.container {
 
   /* border: solid #280E0E; */
   margin-top: 1vh;
+}
+
+.logo {
+  border: solid blue;
 }
