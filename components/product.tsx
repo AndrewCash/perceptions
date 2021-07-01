@@ -1,4 +1,5 @@
-import {withRouter, RouterProps} from 'next/router'
+import {withRouter} from 'next/router'
+import {RouterProps} from 'next/router'
 import Image from 'next/image'
 
 export interface IProduct {

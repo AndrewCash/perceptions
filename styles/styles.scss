@@ -44,6 +44,10 @@ html, body {
   padding: 0;
 }
 
+body {
+  border: solid red;
+}
+
 .app {
   min-height: 100vh;
   display: grid;
@@ -52,14 +56,18 @@ html, body {
 
 .header {
 
-  border: solid blue;
+  border: solid $color-dark;
 
   @include centered;
 
   display: flex;
   padding-top: 20px;
   padding-bottom: 20px;
-  // margin-top: 500px;
+
+  /////////////////////////////////
+  // margin-top:1500px;
+  /////////////////////////////////
+
 
   &__summary {
     font-weight: bold;
@@ -76,6 +84,8 @@ html, body {
 
   &__logo {
     height: 38px;
+
+    border: solid blue;
   }
 
   &__title {
