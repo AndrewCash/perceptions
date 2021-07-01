@@ -17,7 +17,7 @@ export default function Header() {
         />
       </Link>
       <Link href="/" passHref>
-        <h1 className="header__title" >Perception Zero</h1>
+        <h1 className="header__title" >Perceptiøn Zerø</h1>
       </Link>
       <a className="header__summary snipcart-checkout snipcart-summary" href="#" style={{textDecoration: "none"}}>
         <svg width="31" height="27" viewBox="0 0 31 27" fill="none" xmlns="http://www.w3.org/2000/svg">

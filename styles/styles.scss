@@ -51,11 +51,15 @@ html, body {
 }
 
 .header {
+
+  border: solid blue;
+
   @include centered;
 
   display: flex;
   padding-top: 20px;
   padding-bottom: 20px;
+  // margin-top: 500px;
 
   &__summary {
     font-weight: bold;
@@ -111,6 +115,7 @@ html, body {
     @include mobile { font-size: 50px; }
     margin: 0;
     color: $color-dark-red;
+    font-family: 'Playfair Display SC', serif;
   }
 
   h3 {
@@ -131,11 +136,16 @@ html, body {
 
 .product-list {
   @include centered;
+  border: solid red;
 }
 
 .product {
+  border: solid blue;
+
   display: grid;
   width: 100%;
+
+  
 
   display: grid;
   grid-template-areas: 
@@ -269,7 +279,7 @@ html, body {
 
     .colored {
       font-size: inherit; 
-      color: $color-purple;
+      color: $color-dark-red;
     }
   }
 
