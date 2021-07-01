@@ -10,7 +10,7 @@ export default function Header() {
       <Link  href="/" passHref >
         <Image 
           alt="Home Image" 
-          src="/../public/logo - black.svg" 
+          src="/public/logo - black.svg" 
           className="header__logo" 
           width="100"
           height="100"
