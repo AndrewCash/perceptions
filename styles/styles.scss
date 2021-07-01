@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 
 $color-purple: #9094FF;
 $color-light-grey: #EBEBEB;
+$color-dark-red: #280E0E;
 $color-dark: #343434;
 $max-width: 1000px;
 
@@ -34,6 +36,7 @@ $max-width: 1000px;
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  
 }
 
 html, body {
@@ -72,10 +75,11 @@ html, body {
   }
 
   &__title {
-    margin: 0;
+    margin: auto;
     padding: 0;
     font-size: 24px;
     margin-left: 20px;
+    font-family: 'Playfair Display SC', serif;
   }
 }
 
@@ -98,6 +102,17 @@ html, body {
   margin-top: 25px;
   text-align: center;
 
+  h1 {
+    font-family: 'Playfair Display SC', serif;
+  }
+
+  h2 {
+    font-size: 100px;
+    @include mobile { font-size: 50px; }
+    margin: 0;
+    color: $color-dark-red;
+  }
+
   h3 {
     font-size: 20px;
     line-height: normal;
@@ -107,12 +122,11 @@ html, body {
     margin: 0;
   }
 
-  h2 {
-    font-size: 100px;
-    @include mobile { font-size: 50px; }
-    margin: 0;
-    color: $color-purple;
+  h4 {
+    font-family: 'Cinzel', serif;
+    font-size: 1.5em;
   }
+
 }
 
 .product-list {
@@ -303,8 +317,21 @@ html, body {
 }
 
 .footer {
+
+  // border: solid blue;
+  width: 100%;
+
+  
   color: white;
-  background: linear-gradient(90deg, #707070 0%, #474747 100%);
+  // background: linear-gradient(90deg, #707070 0%, #474747 100%);
+
+  // cool eye looking thing
+  // background: rgb(2,0,36);
+  // background: radial-gradient(circle, rgba(2,0,36,1) 31%, rgba(227,20,20,1) 41%, rgba(192,50,56,1) 45%, rgba(0,54,255,1) 100%);
+
+  background: $color-dark-red;
+  background: linear-gradient(90deg, $color-dark-red 19%, rgba(0,0,0,1) 100%);
+
   &__left {
     margin-left: auto;
   }
