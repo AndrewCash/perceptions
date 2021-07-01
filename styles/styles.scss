@@ -44,19 +44,17 @@ html, body {
   padding: 0;
 }
 
-body {
-  border: solid red;
-}
 
 .app {
   min-height: 100vh;
   display: grid;
   grid-template-rows: auto 1fr auto;
+
 }
 
 .header {
 
-  border: solid $color-dark;
+  // border: solid $color-dark;
 
   @include centered;
 
@@ -64,8 +62,11 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
 
+  // position: absolute;
+  // margin-top: auto;
+
   /////////////////////////////////
-  // margin-top:1500px;
+  // margin-top:500px;
   /////////////////////////////////
 
 
@@ -78,14 +79,14 @@ body {
   }
 
   &__price {
-    color: $color-purple;
+    color: $color-dark-red;
     margin-left: 10px;
   }
 
   &__logo {
     height: 38px;
 
-    border: solid blue;
+    // border: solid blue;
   }
 
   &__title {
@@ -146,11 +147,17 @@ body {
 
 .product-list {
   @include centered;
-  border: solid red;
+  // border: solid red;
+}
+
+.product-container {
+  position: relative;
 }
 
 .product {
-  border: solid blue;
+  // border: solid blue;
+
+  
 
   display: grid;
   width: 100%;
@@ -159,7 +166,7 @@ body {
 
   display: grid;
   grid-template-areas: 
-  "title        title         image"
+  "title        title        image"
   "description  description  image"
   "button       button       image"
   ".            .            image";
@@ -220,6 +227,8 @@ body {
     object-fit: cover;
     border-radius: 4px;
     box-shadow: 0px 18.025px 43.775px rgba(0, 0, 0, 0.25);
+
+    // border: solid red;
   }
 
   &__price-button-container {
