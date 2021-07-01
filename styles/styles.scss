@@ -62,6 +62,8 @@ html, body {
   padding-top: 20px;
   padding-bottom: 20px;
 
+  height: 15vh;
+
   // position: absolute;
   // margin-top: auto;
 
@@ -113,10 +115,30 @@ html, body {
 }
 
 .promotional-message {
-  // height: 20vh;
-  margin-top: 15%;
-  margin-bottom: 25%;
+  height: 85vh;
+  // margin-top: 15%;
+  // margin-bottom: 25%;
   text-align: center;
+  // vertical-align: middle;
+
+  // padding-top: 50%;
+  // padding-bottom: 50%;
+
+  // // border: solid blue;
+
+  // display: flex;
+  // width: 50%;
+  // // height: 200px;
+  // margin: auto;
+  // // border-radius: 10px;
+  // // border: 3px dashed #1c87c9;
+  // align-items:center;
+  // justify-content:center;
+  // flex-wrap: wrap;
+
+  // height: 85vh;
+  // text-align: center;
+
 
   h1 {
     font-family: 'Playfair Display SC', serif;
@@ -153,6 +175,7 @@ html, body {
 
 .product-container {
   position: relative;
+  border: solid blue;
 }
 
 .product {
@@ -167,7 +190,7 @@ html, body {
 
   display: grid;
   grid-template-areas: 
-  "title        title        image"
+  "title        title         image"
   "description  description  image"
   "button       button       image"
   ".            .            image";
@@ -227,16 +250,16 @@ html, body {
     border: solid orange;
   }
 
-  // &__image { 
-  //   grid-area: image;
-  //   width: 100%;
-  //   height: 100%;
-  //   object-fit: cover;
-  //   border-radius: 4px;
-  //   box-shadow: 0px 18.025px 43.775px rgba(0, 0, 0, 0.25);
+  &__image { 
+    grid-area: image;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: 0px 18.025px 43.775px rgba(0, 0, 0, 0.25);
 
-  //   border: solid black;
-  // }
+    border: solid black;
+  }
 
   &__price-button-container {
     display: flex;
@@ -383,3 +406,8 @@ html, body {
     padding-bottom: 20px;
   }
 }
+
+// .test {
+//   border: solid purple;
+//   display: none;
+// }

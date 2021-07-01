@@ -42,7 +42,7 @@ const Home = (props: IIndexProps) => {
         
         <ProductList products = {props.products} />
 
-        {/* <Contact /> */}
+        <Contact />
 
       </main>
 
@@ -74,7 +74,7 @@ Home.getInitialProps = async () => {
         price: 420.00, 
         image: '../public/images/Rockstar Denim.webp', 
         description: 'cool ass jeans. buy them please.', 
-        url: 'rockstar'
+        url: '/products/rockstar'
       } as IProduct,
       {
         id: 'blood_wash_denim', 
@@ -82,7 +82,23 @@ Home.getInitialProps = async () => {
         price: 69.00, 
         image: '../public/images/Blood Wash Denim 3.webp', 
         description: 'cooler asser jeanser. pretty please buy these.',
-        url: 'blood-wash'
+        url: '/products/blood-wash'
+      } as IProduct,
+      {
+        id: 'nightmare_denim', 
+        name: 'Blood Wash Denim', 
+        price: 321.00, 
+        image: '../public/images/Nightmare Denim 1.webp', 
+        description: 'cooler asser jeanser. pretty please buy these.',
+        url: '/products/nightmare'
+      } as IProduct,
+      {
+        id: 'jacket', 
+        name: 'Jacket', 
+        price: 800.85, 
+        image: '../public/images/Jacket 1.jpg', 
+        description: 'cooler asser jackettt. pretty please buy these.',
+        url: '/products/jacket'
       } as IProduct,
     ]
   }
