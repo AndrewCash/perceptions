@@ -113,8 +113,9 @@ html, body {
 }
 
 .promotional-message {
-  margin-bottom: 100px;
-  margin-top: 25px;
+  // height: 20vh;
+  margin-top: 15%;
+  margin-bottom: 25%;
   text-align: center;
 
   h1 {
@@ -203,6 +204,9 @@ html, body {
     grid-area: title;
     font-size: 32px;
     font-weight: bold;
+
+
+    border: solid green;
   }
 
   &__description { 
@@ -212,24 +216,27 @@ html, body {
     @include mobile {
       min-height: 0px;
     }
+
+    border: solid red;
   }
 
   &__price { 
     grid-area: price;
     font-size: 28px;
     font-weight: bold;
+    border: solid orange;
   }
 
-  &__image { 
-    grid-area: image;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 4px;
-    box-shadow: 0px 18.025px 43.775px rgba(0, 0, 0, 0.25);
+  // &__image { 
+  //   grid-area: image;
+  //   width: 100%;
+  //   height: 100%;
+  //   object-fit: cover;
+  //   border-radius: 4px;
+  //   box-shadow: 0px 18.025px 43.775px rgba(0, 0, 0, 0.25);
 
-    // border: solid red;
-  }
+  //   border: solid black;
+  // }
 
   &__price-button-container {
     display: flex;

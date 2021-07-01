@@ -22,10 +22,10 @@ const Product = (props: IProductProps) => {
         <p className="product__description">{props.product.description}</p>
         <Image 
           src={"/" + props.product.image} 
-          alt="" 
+          alt={props.product.name} 
           className="product__image"
           layout='fill'
-          // objectFit='contain'
+          objectFit='contain'
         />
         
         <div className="product__price-button-container">
@@ -35,7 +35,7 @@ const Product = (props: IProductProps) => {
             data-item-id={props.product.id}
             data-item-name={props.product.name}
             data-item-price={props.product.price}
-            data-item-url={props.router.pathname}
+            data-item-url={props.product.url} 
             data-item-image={props.product.image}>
             Add to cart
           </button>
