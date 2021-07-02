@@ -1,6 +1,8 @@
 import {withRouter} from 'next/router'
-import RouterProps from "next/router"
+import RouterProps from 'next/router'
 import Image from 'next/image'
+
+import productDB from '../public/products.json'
 
 export interface IProduct {
   id: string
@@ -25,8 +27,15 @@ const Product = (props: IProductProps) => {
           src={"/" + props.product.image} 
           alt={props.product.name} 
           className="product__image"
-          layout='fill'
+          // layout='fill'
+
+          layout="responsive"
           objectFit='contain'
+
+          width='200'
+          height='200'
+
+          // placeholder="blur"
         />
         
         
@@ -37,7 +46,7 @@ const Product = (props: IProductProps) => {
             data-item-id={props.product.id}
             data-item-name={props.product.name}
             data-item-price={props.product.price}
-            data-item-url={props.router.pathname} 
+            data-item-url={productDB.products} 
             data-item-image={props.product.image}>
             Add to cart
           </button>
