@@ -29,7 +29,8 @@ const Home = (props: IIndexProps) => {
 
       <main className='main'>
 
-        <div className='promotional-message'>
+  
+        <section className='promotional-message'>
           {/* <h1>PERCEPTION ZERO</h1> */}
           {/* <h2>luxury streetwear</h2> */}
           <h2>Perceptiøn Zerø</h2>
@@ -38,7 +39,9 @@ const Home = (props: IIndexProps) => {
           <br></br>
           <h4>happiness comes from within</h4>
 
-        </div>
+        </section>
+
+        
         
         <ProductList products = {props.products} />
 
@@ -71,7 +74,7 @@ Home.getInitialProps = async () => {
       {
         id: 'rockstar_denim', 
         name: 'Rockstar Denim', 
-        price: 420.00, 
+        price: 75.00, 
         image: '../public/images/Rockstar Denim.webp', 
         description: 'cool ass jeans. buy them please.', 
         url: '/products/rockstar'
@@ -79,26 +82,42 @@ Home.getInitialProps = async () => {
       {
         id: 'blood_wash_denim', 
         name: 'Blood Wash Denim', 
-        price: 69.00, 
+        price: 75.00, 
         image: '../public/images/Blood Wash Denim 3.webp', 
         description: 'cooler asser jeanser. pretty please buy these.',
         url: '/products/blood-wash'
       } as IProduct,
       {
         id: 'nightmare_denim', 
-        name: 'Blood Wash Denim', 
-        price: 321.00, 
+        name: 'Nightmare Denim', 
+        price: 100.00, 
         image: '../public/images/Nightmare Denim 1.webp', 
         description: 'cooler asser jeanser. pretty please buy these.',
         url: '/products/nightmare'
       } as IProduct,
       {
-        id: 'jacket', 
-        name: 'Jacket', 
-        price: 800.85, 
+        id: 'blood_wash_denim_jacket', 
+        name: 'Blood Wash Denim Jacket', 
+        price: 100.00, 
         image: '../public/images/Jacket 1.jpg', 
         description: 'cooler asser jackettt. pretty please buy these.',
-        url: '/products/jacket'
+        url: '/products/blood_wash_denim_jacket'
+      } as IProduct,
+      {
+        id: 'dead_denim', 
+        name: 'Dead Denim', 
+        price: 6.66, 
+        image: '../public/images/Dead Denim.webp', 
+        description: 'cooler asser jackettt. pretty please buy these.',
+        url: '/products/dead_denim'
+      } as IProduct,
+      {
+        id: 'perception_1_denim', 
+        name: 'Perception 1 Denim', 
+        price: 6.66, 
+        image: '../public/images/Perception 1 Denim.webp', 
+        description: 'cooler asser jackettt. pretty please buy these.',
+        url: '/products/perception_1_denim'
       } as IProduct,
     ]
   }

@@ -114,7 +114,19 @@ html, body {
   pointer-events: none;
 }
 
+.promotional-message_container {
+  // display: flex;
+  // justify-content: 'center'; //Centered vertically
+  // align-items: 'center'; // Centered horizontally
+  // flex:1;
+
+  // border: solid red;
+
+}
+
 .promotional-message {
+  // border: solid blue;
+
   height: 85vh;
   // margin-top: 15%;
   // margin-bottom: 25%;
@@ -124,21 +136,9 @@ html, body {
   // padding-top: 50%;
   // padding-bottom: 50%;
 
-  // // border: solid blue;
+  // s
 
-  // display: flex;
-  // width: 50%;
-  // // height: 200px;
-  // margin: auto;
-  // // border-radius: 10px;
-  // // border: 3px dashed #1c87c9;
-  // align-items:center;
-  // justify-content:center;
-  // flex-wrap: wrap;
-
-  // height: 85vh;
-  // text-align: center;
-
+  
 
   h1 {
     font-family: 'Playfair Display SC', serif;
@@ -175,7 +175,7 @@ html, body {
 
 .product-container {
   position: relative;
-  border: solid blue;
+  // border: solid blue;
 }
 
 .product {
@@ -186,9 +186,7 @@ html, body {
   display: grid;
   width: 100%;
 
-  
 
-  display: grid;
   grid-template-areas: 
   "title        title         image"
   "description  description  image"
@@ -229,7 +227,7 @@ html, body {
     font-weight: bold;
 
 
-    border: solid green;
+    // border: solid green;
   }
 
   &__description { 
@@ -240,14 +238,14 @@ html, body {
       min-height: 0px;
     }
 
-    border: solid red;
+    // border: solid red;
   }
 
   &__price { 
     grid-area: price;
     font-size: 28px;
     font-weight: bold;
-    border: solid orange;
+    // border: solid orange;
   }
 
   &__image { 
@@ -275,7 +273,7 @@ html, body {
     padding-left: 20px;
     padding-right: 20px;
     border: none;
-    background-color: $color-purple;
+    background-color: $color-dark-red;
     color: white;
     position: relative;
 
