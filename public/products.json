@@ -1,0 +1,53 @@
+{
+  "products": [
+    {
+      "id": "rockstar_denim",
+      "name": "Rockstar Denim",
+      "price": 75.00,
+      "image": "../public/images/Rockstar Denim.webp",
+      "description": "cool ass jeans. buy them please.",
+      "url": "/"
+    },
+    {
+      "id": "blood_wash_denim",
+      "name": "Blood Wash Denim",
+      "price": 75.00,
+      "image": "../public/images/Blood Wash Denim 3.webp",
+      "description": "cooler asser jeanser. pretty please buy these.",
+      "url": "/"  
+    },
+    {
+      "id": "nightmare_denim",
+      "name": "Nightmare Denim",
+      "price": 100.00,
+      "image": "../public/images/Nightmare Denim 1.webp",
+      "description": "cooler asser jeanser. pretty please buy these.",
+      "url": "/"
+    },
+    {
+      "id": "blood_wash_denim_jacket",
+      "name": "Blood Wash Denim Jacket",
+      "price": 100.00,
+      "image": "../public/images/Jacket 1.jpg",
+      "description": "cooler asser jackettt. pretty please buy these.",
+      "url": "/"
+    },
+    {
+      "id": "dead_denim",
+      "name": "Dead Denim",
+      "price": 6.66,
+      "image": "../public/images/Dead Denim.webp",
+      "description": "cooler asser jackettt. pretty please buy these.",
+      "url": "/"
+    },
+    {
+      "id": "perception_1_denim",
+      "name": "Perception 1 Denim",
+      "price": 6.66,
+      "image": "../public/images/Perception 1 Denim.webp",
+      "description": "cooler asser jackettt. pretty please buy these.",
+      "url": "/"
+    }
+
+  ]
+}
