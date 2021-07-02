@@ -14,7 +14,7 @@ export interface IProduct {
 }
 interface IProductProps {
   product: IProduct
-  router: RouterProps
+  router: typeof RouterProps
 }
 const Product = (props: IProductProps) => {
   return (
