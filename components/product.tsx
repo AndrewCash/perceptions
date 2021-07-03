@@ -30,12 +30,12 @@ const Product = (props: IProductProps) => {
           className="product__image"
           
 
-          layout="responsive"
-          objectFit='contain'
+          // layout="responsive"
+          // objectFit='contain'
 
-          // width='200'
-          // height='400'
-          layout='fill'
+          width='500px'
+          height='650px'
+          // layout='fill'
 
           // placeholder="blur"
         />
